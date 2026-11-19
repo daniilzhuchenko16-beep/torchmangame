@@ -1,0 +1,15 @@
+// HUMAN TORCH GAME
+// Player Controller
+
+export class Player {
+    constructor() {
+        this.position = {
+            x: 0,
+            y: 0,
+            z: 0
+        };
+
+        this.speed = 5;
+        this.energy = 100;
+    }
+}
