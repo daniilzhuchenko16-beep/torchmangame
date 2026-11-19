@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>HUMAN TORCH v0.0.1 — FIRST FLIGHT</title>
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- Фиксированная версия Three.js 0.170.0 для всего проекта -->
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com",
+                "three/addons/": "https://unpkg.com"
+            }
+        }
+    </script>
+</head>
+<body>
+    <!-- Слой игрового интерфейса (HUD) -->
+    <div id="hud-layer"></div>
+
+    <!-- Слой мобильного управления (TouchControls) -->
+    <div id="touch-layer"></div>
+
+    <!-- Точка входа игры -->
+    <script type="module" src="./src/main.js"></script>
+</body>
+</html>
